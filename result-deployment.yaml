@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: result
+    env: test
   name: result
 spec:
   replicas: 1
